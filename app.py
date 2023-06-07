@@ -6,9 +6,9 @@ import seaborn as sns
 
 def main():
     # st.title("University Ranking in the UK")University Ranking in the UK
-    st.markdown("""<span style='color:red; font-size:50px; font-weight:bold;'>University Ranking </span>
-                <span style='color:black; font-size:20px;'> in the</span>
-                <span style='color:blue; font-size:50px; font-weight:bold;'>UK</span>""",
+    st.markdown("""<span style='color:green; font-size:50px; font-weight:bold;'>WHO </span>
+                <span style='color:black; font-size:20px;'> ... the</span>
+                <span style='color:red; font-size:50px; font-weight:bold;'>suicide</span>""",
                 unsafe_allow_html=True)
     new_title = '<p style="font-family:sans-serif; color:purple; font-size: 50px;">University Ranking in the UK</p> '
     st.markdown(new_title, unsafe_allow_html=True)
@@ -24,9 +24,8 @@ def main():
 
             st.text('좋은 서비스를 제공하겠습니다.')
             st.text('자동 배포 처리된 앱입니다.')
-            img_url= 'https://www.irishtimes.com/resizer/pPJML7tkKkfBuXUYNfRzjnQxqjI=/1600x0/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/irishtimes/XPHTWNJW3THZZ3UTNI3RDXXOPE.jpg'
-
-            st.image(img_url)
+            # img_url= 'https://www.irishtimes.com/resizer/pPJML7tkKkfBuXUYNfRzjnQxqjI=/1600x0/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/irishtimes/XPHTWNJW3THZZ3UTNI3RDXXOPE.jpg'
+            # st.image(img_url)
     
     elif choice == menu[1] :
         # run_app_eda()
